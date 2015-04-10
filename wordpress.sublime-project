@@ -1,0 +1,28 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\school"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\xampp\\htdocs\\drupal7"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\Users\\animbolk\\michaelpage"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://drupal7.local/"
+		}
+	}
+}

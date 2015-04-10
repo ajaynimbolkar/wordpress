@@ -1,0 +1,953 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"displa",
+				"display"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"check",
+				"check_plain"
+			],
+			[
+				"we",
+				"weight_value"
+			],
+			[
+				"drupal",
+				"drupal_goto	drupal_goto"
+			],
+			[
+				"$",
+				"$form_state"
+			],
+			[
+				"xing",
+				"xing_connect"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"$for",
+				"$form_id"
+			],
+			[
+				"st",
+				"strength"
+			],
+			[
+				"lan",
+				"LANGUAGE_NONE"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"drupal_set",
+				"drupal_set_message"
+			],
+			[
+				"$form",
+				"$form_state"
+			],
+			[
+				"edit",
+				"edit"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"test",
+				"test_cases"
+			],
+			[
+				"module_lo",
+				"module_load_include"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"b",
+				"blisstering"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"hook",
+				"hook_init	hook_init"
+			],
+			[
+				"form_s",
+				"form_set_error"
+			],
+			[
+				"hook_f",
+				"hook_forms"
+			],
+			[
+				"drupal_get_f",
+				"drupal_get_form"
+			],
+			[
+				"admini",
+				"administrater"
+			],
+			[
+				"Tru",
+				"TRUE"
+			],
+			[
+				"var",
+				"variable_get	variable_get"
+			],
+			[
+				"te",
+				"textfield"
+			],
+			[
+				"$f",
+				"$form_id"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"lo",
+				"locationData"
+			],
+			[
+				"data",
+				"data	.data()"
+			],
+			[
+				"gma",
+				"gmapDisplayId"
+			],
+			[
+				"ma",
+				"marker"
+			],
+			[
+				"$se",
+				"$setting"
+			],
+			[
+				"drupal_add",
+				"drupal_add_js	drupal_add_js"
+			],
+			[
+				"$fi",
+				"$field_key"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"$fie",
+				"$field_row_value"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"goog",
+				"google_map_search_field"
+			],
+			[
+				"mod",
+				"module_load_include	module_load_include"
+			],
+			[
+				"argu",
+				"arguments"
+			],
+			[
+				"de",
+				"dependencies"
+			],
+			[
+				"drupal_get",
+				"drupal_get_path	drupal_get_path"
+			],
+			[
+				"se",
+				"setting"
+			],
+			[
+				"$o",
+				"$object"
+			],
+			[
+				"$ob",
+				"$object_type"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"hook_for",
+				"hook_field_formatter_info	hook_field_formatter_info"
+			],
+			[
+				"hook_form",
+				"hook_field_formatter_view	hook_field_formatter_view"
+			],
+			[
+				"hook_field_f",
+				"hook_field_formatter_info	hook_field_formatter_info"
+			],
+			[
+				"car",
+				"cardinality"
+			],
+			[
+				"hook_field",
+				"hook_field_info	hook_field_info"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Users/animbolk/Desktop/ni-476",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Unix",
+				"name": "ni-476"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 2443,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/User/DrupalCodingStandard.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"hook_view",
+				"Snippet: hook_views_plugins"
+			],
+			[
+				"hook_v",
+				"Snippet: hook_views_api"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"hook	",
+				"Snippet: hook_permission"
+			],
+			[
+				"hook_node_pre",
+				"Snippet: hook_node_operations"
+			],
+			[
+				"node_save",
+				"Snippet: node_save"
+			],
+			[
+				"hook_per",
+				"Snippet: hook_permission"
+			],
+			[
+				"INSTA",
+				"Snippet: hook_install"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/D/Users/animbolk/Desktop/drupal.org module commit",
+		"/C/xampp/htdocs/school/includes/common.inc",
+		"/C/xampp/htdocs/drupal7/modules/user/user.module",
+		"/C/xampp/htdocs/drupal7/includes/common.inc",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/xing_connect.module",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/xing_connect.admin.inc",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/password_policy/password_policy.admin.inc",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/views/plugins/views_plugin_exposed_form.inc",
+		"/C/xampp/htdocs/drupal7/includes/menu.inc",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/views/includes/view.inc",
+		"/C/xampp/htdocs/school/sites/all/modules/views/includes/view.inc",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/views/views.module",
+		"/C/xampp/htdocs/school/includes/form.inc",
+		"/D/Users/animbolk/michaelpage/michaelpage-MPS-173-STAGE1/profiles/mp_singapore/modules/views/includes/view.inc",
+		"/D/Users/animbolk/Desktop/issuelist_feb",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/README.txt",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/xing_connect.install",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/includes/xing_connect.authenticate.inc",
+		"/D/Users/animbolk/Desktop/query_parameters_to_url/query_parameters_to_url.module",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/xing_connect.info",
+		"/C/xampp/htdocs/school/includes/module.inc",
+		"/D/Users/animbolk/Desktop/MPS-536/memcache/README.txt",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/README.txt",
+		"/D/Users/animbolk/Desktop/ND-169",
+		"/D/Users/animbolk/michaelpage/michaelpage_code/sftp-config.json",
+		"/D/Users/animbolk/michaelpage/michaelpage_code/sites/michaelpage.ca/settings.php",
+		"/D/Users/animbolk/michaelpage/sftp-config.json",
+		"/C/Users/animbolk/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/sftp-config",
+		"/C/xampp/htdocs/school/school.sublime-project",
+		"/C/xampp/htdocs/school/sites/all/modules/views/help/style-fields.html",
+		"/C/xampp/htdocs/school/modules/field/tests/field_test.info",
+		"/C/xampp/htdocs/school/includes/filetransfer/ftp.inc",
+		"/C/xampp/htdocs/drupal7/misc/drupal.js",
+		"/C/xampp/htdocs/drupal7/misc/ajax.js",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/simple_fb_connect/simple_fb_connect.module",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/xing_connect/form/xing_connect.admin.inc",
+		"/C/xampp/htdocs/drupal7/includes/module.inc",
+		"/C/xampp/htdocs/drupal7/includes/database/mysql/database.inc",
+		"/C/xampp/htdocs/drupal7/index.php",
+		"/C/xampp/htdocs/drupal7/includes/bootstrap.inc",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/admin_menu/admin_menu.module",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/admin_menu/admin_menu_toolbar/admin_menu_toolbar.module",
+		"/C/xampp/htdocs/drupal7/profiles/standard/standard.profile",
+		"/C/xampp/htdocs/drupal7/includes/form.inc",
+		"/C/xampp/htdocs/drupal7/modules/system/system.module",
+		"/C/xampp/htdocs/drupal7/modules/user/user.js",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/password_policy/password_policy.module",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/password_policy/constraints/constraint_history.inc",
+		"/C/xampp/htdocs/drupal7/modules/search/search.module",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/password_policy/contrib/password_tab/password_policy_password_tab.module",
+		"/C/xampp/htdocs/drupal7/modules/path/path.module",
+		"/C/xampp/htdocs/drupal7/modules/rdf/rdf.module",
+		"/C/xampp/htdocs/school/sites/all/modules/password_policy/password_policy.module",
+		"/C/xampp/htdocs/drupal7/sites/default/settings.php",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/password_policy/password_policy.js",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/simple_fb_connect/simple_fb_connect.admin.inc",
+		"/C/xampp/htdocs/drupal7/drupal7.sublime-project",
+		"/D/Users/animbolk/Desktop/Michaelpage_credential/michaelpage/credential[1].txt",
+		"/C/xampp/htdocs/drupal7/sites/all/modules/libraries-7.x-2.2.zip",
+		"/C/Users/animbolk/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/school/includes/menu.inc",
+		"/C/xampp/htdocs/school/modules/node/node.module",
+		"/C/xampp/htdocs/school/includes/database/mysql/database.inc",
+		"/C/xampp/htdocs/school/includes/bootstrap.inc",
+		"/C/xampp/htdocs/school/includes/session.inc",
+		"/C/xampp/htdocs/school/includes/unicode.inc",
+		"/C/xampp/htdocs/school/includes/path.inc",
+		"/C/xampp/htdocs/school/index.php",
+		"/C/xampp/htdocs/school/includes/database/database.inc",
+		"/C/xampp/htdocs/school/sites/default/settings.php",
+		"/C/xampp/htdocs/school/includes/cache.inc",
+		"/C/Users/animbolk/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/school/install.php",
+		"/C/xampp/htdocs/drupal-8/core/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Request.php",
+		"/D/Users/animbolk/Desktop/SQL FOR REPORT.sql",
+		"/C/xampp/htdocs/school/modules/taxonomy/taxonomy.module",
+		"/C/xampp/htdocs/school/modules/taxonomy/taxonomy.pages.inc",
+		"/C/xampp/htdocs/school/sites/all/modules/demo/demo.info",
+		"/C/xampp/htdocs/school/sites/all/modules/demo/demo.module",
+		"/C/xampp/htdocs/school/sites/all/modules/demo/demo.install",
+		"/D/Users/animbolk/Desktop/Michaelpage_credential/michaelpage/NI-191/File required for NI-191",
+		"/D/Users/animbolk/Desktop/Michaelpage_credential/michaelpage/MP-2733/mp_mypage/forms/mp_mypage_user_register.inc",
+		"/C/xampp/htdocs/school/sites/all/themes/thecompany-responsive-theme/css/custom.css",
+		"/D/Users/animbolk/Desktop/server solr/schema.xml",
+		"/D/Users/animbolk/Desktop/server solr/schema_extra_types.xml",
+		"/D/Users/animbolk/Desktop/Michaelpage_credential/michaelpage/NI-21/Mozilla Firefox.lnk",
+		"/D/Users/animbolk/Downloads/mp_tools.drush.inc",
+		"/C/xampp/htdocs/school/sites/all/modules/views_slideshow_galleria/README.txt",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/README.txt",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/test_cases.install",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/includes/test_cases.form.inc",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/includes/test_cases.users.inc",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/test_cases.module",
+		"/C/Users/animbolk/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/D/Users/animbolk/Desktop/Michaelpage_credential/michaelpage/MP-2191/Steps to configure CV submit and refine search",
+		"/C/xampp/htdocs/tb/modules/node/node.admin.inc",
+		"/C/xampp/htdocs/tb/modules/node/node.module",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/test_cases.info",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/js/test_cases.js",
+		"/C/xampp/htdocs/tb/sites/default/settings.php",
+		"/C/xampp/htdocs/tb/sites/all/modules/test_cases/js/google_map_search_field_node_display.js",
+		"/C/xampp/htdocs/drupal-8/core/lib/Drupal/Component/Serialization/Yaml.php",
+		"/C/xampp/htdocs/drupal-8/core/modules/field_ui/src/DisplayOverview.php",
+		"/C/xampp/htdocs/google_map/themes/stark/layout.css",
+		"/C/xampp/htdocs/tb/modules/user/user.module",
+		"/C/xampp/htdocs/tb/sites/all/modules/social_stats/social_stats.module",
+		"/C/xampp/htdocs/drupal631/sites/all/modules/sharebar/js/sharebar.js",
+		"/C/xampp/htdocs/drupal631/sites/all/modules/sharebar/js/colorpicker.js",
+		"/C/xampp/htdocs/drupal631/sites/all/modules/sharebar/sharebar.admin.inc",
+		"/C/xampp/htdocs/drupal631/sites/all/modules/sharebar/sharebar.module",
+		"/C/xampp/htdocs/drupal631/sites/all/modules/sharebar/sharebar.install",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/js/google_map_marker.js",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/google_map_search_field.module",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/js/google_map_search_field_node_display.js",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/theme/google-map-search-field.theme.inc",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/google_map_search_field.views.inc",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/theme/google-map-marker.tpl.php",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/plugins/views_plugin_style_gmap_marker.inc",
+		"/C/xampp/htdocs/google_map/sites/all/modules/views/includes/plugins.inc",
+		"/C/xampp/htdocs/google_map/sites/all/modules/views/plugins/views_plugin_style_list.inc",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/google_map_search_field.info",
+		"/C/xampp/htdocs/tb/sites/all/modules/google_map_search_field/plugins/views_plugin_style_gmap_marker.inc",
+		"/C/xampp/htdocs/google_map/sites/all/modules/google_map_search_field/includes/google_map_search_field.admin.inc",
+		"/C/xampp/htdocs/tb/sites/all/modules/google_map_search_field/js/google_map_search_field_widget_form.js",
+		"/C/xampp/htdocs/tb/sites/all/modules/google_map_search_field/js/google_map_search_field_node_display.js",
+		"/C/xampp/htdocs/tb/sites/all/modules/google_map_search_field/google_map_search_field.views.inc",
+		"/C/xampp/htdocs/tb/sites/all/modules/views/plugins/views_plugin_style_list.inc"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\drupal7",
+			"C:\\xampp\\htdocs\\drupal7\\sites\\all\\modules\\xing_connect",
+			"C:\\xampp\\htdocs\\drupal7\\misc",
+			"C:\\xampp\\htdocs\\school\\includes",
+			"C:\\xampp\\htdocs\\school",
+			"C:\\xampp\\htdocs\\tb\\modules\\node",
+			"C:\\xampp\\htdocs\\drupal631\\sites\\all\\modules\\sharebar",
+			"C:\\xampp\\htdocs\\google_map\\sites\\all\\modules\\google_map_search_field",
+			"C:\\xampp\\htdocs\\tb\\sites\\all\\modules\\views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"valid_email_address",
+			"user_validate_mail",
+			"The e-mail address",
+			"Ungültiges Feld",
+			"name_prefix",
+			"user",
+			"views_page",
+			"execute_display",
+			"deb",
+			"$form_state",
+			"execute_display",
+			"expose",
+			"query_parameters_to_url_decode_query_parameter_values",
+			"query_parameters_to_url_rewrite",
+			"xing_connect_access_token",
+			"xing_connect_authentication",
+			"occured",
+			"width",
+			"$width",
+			"$response",
+			"xing_candidate_get_information",
+			"xing_unique_user_name",
+			"simple_fb_connect_login",
+			"Drupal.ajaxError",
+			"error",
+			"remove",
+			"detachBehaviors",
+			"alert",
+			"ajaxError",
+			"error",
+			"beforeSerialize",
+			"Drupal.ajax",
+			"Drupal.ajax(base,element,element_settings)",
+			"beforeSend",
+			"attachBehaviors",
+			"ajaxError",
+			"atta",
+			"AJAX ",
+			"commands",
+			"Drupal.ajax",
+			"error",
+			"ajaxing",
+			"removeAttr",
+			"stop",
+			"abort",
+			"alert",
+			"stop",
+			"abort",
+			"xing_button_display",
+			"$fb_user_profile",
+			"SIMPLE_FB_CONNECT_DEFAULT_DIMENSIONS_STRING",
+			"xing_candidate_get_information",
+			"SIMPLE_FB_CONNECT_DEFAULT_WIDTH",
+			"SIMPLE_FB_CONNECT_DEFAULT_DIMENSIONS_STRING",
+			"simple_fb_connect_unique_user_name",
+			"xing_candidate_get_information",
+			"my_nids",
+			"image",
+			"simple_fb_connect_unique_user_name",
+			"password_policy_add_policy_js",
+			"password_policy_constraint_",
+			"password_policy_constraint_hi",
+			"hist",
+			"password_policy_add_policy_js",
+			"SIMPLE_FB_CONNECT_DEFAULT_DIMENSIONS_STRING",
+			"menu_execute_active_handler",
+			"execution",
+			"execution_",
+			"page_ca",
+			"MENU_SITE_ONLINE",
+			"_drupal_bootstrap_full",
+			"drupal_bootstrap",
+			"DRUPAL_BOOTSTRAP_FULL",
+			"menu_execute_active_handler",
+			"query_parameters_to_url_encode_query_parameter_values",
+			"query_parameters_to_url_rewrite_access",
+			"createRequestFromFactory",
+			"mp_job_import_log",
+			"presave",
+			"taxonomy_autocomplete",
+			"print",
+			"taxonomy_implode_tags",
+			"form_s",
+			"form",
+			"taxonomy_autocomplete_validate",
+			"taxonomy_implode_tags",
+			"form-autocomplete",
+			"Autocomplete term widget (tagging)",
+			"33287",
+			"23318",
+			"New York",
+			"[2]",
+			"chica",
+			"job_advert",
+			"org",
+			"field_job_organisation_ref",
+			"full",
+			"mp_jobs_search_salary_type_range",
+			"12",
+			"cutomiz",
+			"cutom",
+			"trigger",
+			"password",
+			"job_sub_sector",
+			"3submit",
+			"rebuild",
+			"submit",
+			"functionm node_admin_nodes",
+			"node_admin_nodes",
+			"$options",
+			"tableselect",
+			"node_filter_form",
+			"node_admin_content",
+			"drupal_get_form",
+			"admin/content",
+			"+",
+			"_user_data_listing",
+			" {",
+			"'",
+			"result",
+			"[jo",
+			"default",
+			"display_options",
+			"[job",
+			"[job_search",
+			"job_search",
+			"b",
+			"_user_mail_text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"occurred",
+			"mjil",
+			"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Users/animbolk/Desktop/ni-476",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "ni-476",
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2443,
+								2443
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.232959850607,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.92774566474,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 30.0
+	},
+	"output.xdebug":
+	{
+		"height": 54.0
+	},
+	"project": "wordpress.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"<div id = \"empty_view\">"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"17":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"28":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"62":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.924924924925,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
