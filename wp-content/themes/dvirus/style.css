@@ -1,9 +1,9 @@
 /*
-Theme Name: dvirus
+Theme Name: Twenty Fifteen
 Theme URI: https://wordpress.org/themes/twentyfifteen
 Author: the WordPress team
 Author URI: https://wordpress.org/
-Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. dvirus's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -3890,6 +3890,20 @@ p > video {
  */
 
 @media screen and (min-width: 59.6875em) {
+	body:before {
+		background-color: #fff;
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+		content: "";
+		display: block;
+		height: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 29.4118%;
+		z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+	}
+
 	.site {
 		margin: 0 auto;
 		max-width: 1403px;
@@ -3917,8 +3931,8 @@ p > video {
 	.site-content {
 		display: block;
 		float: left;
-		margin-left: 0;
-		width: 100%;
+		margin-left: 29.4118%;
+		width: 70.5882%;
 	}
 
 	body {
